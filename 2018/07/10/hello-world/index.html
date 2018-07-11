@@ -1,138 +1,188 @@
 <!DOCTYPE html>
-<html lang="">
+<!--[if lte IE 8 ]>
+<html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<!--
+***************  *      *     *
+      8          *    *       *
+      8          *  *         *
+      8          **           *
+      8          *  *         *
+      8          *    *       *
+      8          *      *     *
+      8          *        *   ***********    -----Theme By Kieran(http://go.kieran.top)
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+<!--<![endif]-->
+
 <head>
-    <meta charset="utf-8" />
+  <title>Hello World | Hexo</title>
+  <!-- Meta data -->
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content="Hexo">
+    <meta name="author" content="John Doe">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <!-- Favicon, (keep icon in root folder) -->
+    <link rel="Shortcut Icon" href="/img/favicon.ico" type="image/ico">
+
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    <link rel="stylesheet" href="/css/all.css" media="screen" type="text/css">
     
-        <title>Hello World | </title>
+    <link rel="stylesheet" href="/highlightjs/vs.css" type="text/css">
     
 
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
-<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
-<meta name="format-detection" content="telephone=no">
-<meta name="author" content="John Doe" />
-<meta name="designer" content="minfive" />
-<meta name="keywords" content="null"/>
-<meta name="description" content="null" />
+    <!--[if IE 8]>
+    <link rel="stylesheet" type="text/css" href="/css/ie8.css" />
+    <![endif]-->
 
-<meta name="apple-mobile-web-app-capable" content="yes" />
-<meta name="apple-mobile-web-app-status-bar-style" content="black" />
-<meta name="format-detection" content="telephone=yes" />
-<meta name="mobile-web-app-capable" content="yes" />
-<meta name="robots" content="all" />
+    <!-- jQuery | Load our jQuery, with an alternative source fallback to a local version if request is unavailable -->
+    <script src="/js/jquery-1.11.1.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.11.1.min.js"><\/script>')</script>
 
-<link rel="canonical" href="http://yoursite.com/2018/07/10/hello-world/index.html">
+    <!-- Load these in the <head> for quicker IE8+ load times -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="/js/html5shiv.min.js"></script>
+    <script src="/js/respond.min.js"></script>
+    <![endif]-->
 
-<link rel="icon" type="image/png" href="undefined" sizes="32x32">
+  
+  
+  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- Prefetch -->
-
-
-
-
-
-
-<!-- CSS -->
-<link rel="stylesheet" href="/scss/base/index.css">
-
-<!-- RSS -->
-<link rel="alternate" href="/atom.xml" title="Hexo">
-
-<!-- 统计 -->
-<!-- 百度统计 -->
-
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-
-
-    
-    
-    <link rel="stylesheet" href="/scss/views/page/post.css">
-
+  <style>.col-md-8.col-md-offset-2.opening-statement img{display:none;}</style>
 </head>
-<body ontouchstart>
-    
-        <!-- loading 页面 -->
-<div id="page-loading" class="page page-loading" style="background-image: url('undefined')"></div>
-    
 
-    <div id="page" class="page js-hidden">
-        
-    <!-- 页头 -->
-<header class="page__small-header page__header--small">
-    <nav class="page__navbar">
-        <div class="page__container navbar-container">
-            <a class="page__logo" href="/" title="Hexo" alt="Hexo">
-                <img src="undefined" alt="Hexo">
-            </a>
+<!--
+<body class="post-template">
+-->
+<body id="index" class="lightnav animsition">
 
-            <nav class="page__nav">
-                <ul class="nav__list clearfix">
+      <!-- ============================ Off-canvas navigation =========================== -->
+
+    <div class="sb-slidebar sb-right sb-style-overlay sb-momentum-scrolling">
+        <div class="sb-close" aria-label="Close Menu" aria-hidden="true">
+            <img src="/img/close.png" alt="Close"/>
+        </div>
+        <!-- Lists in Slidebars -->
+        <ul class="sb-menu">
+            <li><a href="/" class="animsition-link" title="Home">Home</a></li>
+            <li><a href="/archives" class="animsition-link" title="archive">archives</a></li>
+            <!-- Dropdown Menu -->
+			 
+            <li>
+                <a class="sb-toggle-submenu">Works<span class="sb-caret"></span></a>
+                <ul class="sb-submenu">
+                    
+                        <li><a href="/" target="_BLANK" class="animsition-link">AAA</a></li>
+                    
+                        <li><a href="/atom.xml" target="_BLANK" class="animsition-link">BBB</a></li>
                     
                 </ul>
-            </nav>
-
-            <button class="page__menu-btn" type="button">
-                <i class="iconfont icon-menu"></i>
-            </button>
-        </div>
-    </nav>
-</header>
-
-
-        
-    <main class="page__container page__main">
-    <div class="page__content">
-        <article class="page__post">
-    <div class="post__cover">
-        <img src="undefined" alt="Hello World">
+            </li>
+            
+            
+            
+            <li>
+                <a class="sb-toggle-submenu">Links<span class="sb-caret"></span></a>
+                <ul class="sb-submenu">
+                    
+                    <li><a href="http://go.kieran.top/" class="animsition-link">Kieran</a></li>
+                    
+                    <li><a href="http://domain.com/" class="animsition-link">Name</a></li>
+                    
+                </ul>
+            </li>
+            
+        </ul>
+        <!-- Lists in Slidebars -->
+        <ul class="sb-menu secondary">
+            
+            <li><a href="/about.html" class="animsition-link" title="about">About</a></li>
+            <li><a href="/atom.xml" class="animsition-link" title="rss">RSS</a></li>
+        </ul>
     </div>
+    
+    <!-- ============================ END Off-canvas navigation =========================== -->
 
-    <header class="post__info">
-        <h1 class="post__title">Hello World</h1>
+    <!-- ============================ #sb-site Main Page Wrapper =========================== -->
 
-        <div class="post__mark">
-            <div class="mark__block">
-                <i class="mark__icon iconfont icon-write"></i>
-                <ul class="mark__list clearfix">
-                    <li class="mark__item">
-                        <a href="/">undefined</a>
-                    </li>
-                </ul>
+    <div id="sb-site">
+        <!-- #sb-site - All page content should be contained within this id, except the off-canvas navigation itself -->
+
+        <!-- ============================ Header & Logo bar =========================== -->
+
+        <div id="navigation" class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <!-- Nav logo -->
+                    <div class="logo">
+                        <a href="/" title="Logo" class="animsition-link">
+                         <img src="/img/logo.png" alt="Logo" width="35px;"/> 
+                        </a>
+                    </div>
+                    <!-- // Nav logo -->
+                    <!-- Info-bar -->
+                    <nav>
+                        <ul class="nav">
+                            <li><a href="/" class="animsition-link">Hexo</a></li>
+                            <li class="nolink"><span>Always </span>Creative.</li>
+                            
+                            <li><a href="https://github.com/" title="Github" target="_blank"><i class="icon-github"></i></a></li>
+                            
+                            
+                            <li><a href="https://twitter.com/" title="Twitter" target="_blank"><i class="icon-twitter"></i></a></li>
+                            
+                            
+                            <li><a href="https://www.facebook.com/" title="Facebook" target="_blank"><i class="icon-facebook"></i></a></li>
+                            
+                            
+                            <li><a href="https://google.com/" title="Google-Plus" target="_blank"><i class="icon-google-plus"></i></a></li>
+                            
+                            
+                            <li><a href="http://weibo.com/" title="Sina-Weibo" target="_blank"><i class="icon-sina-weibo"></i></a></li>
+                            
+                            <li class="nolink"><span>Welcome!</span></li>
+                        </ul>
+                    </nav>
+                    <!--// Info-bar -->
+                </div>
+                <!-- // .container -->
+                <div class="learnmore sb-toggle-right">More</div>
+                <button type="button" class="navbar-toggle menu-icon sb-toggle-right" title="More">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar before"></span>
+                <span class="icon-bar main"></span>
+                <span class="icon-bar after"></span>
+                </button>
             </div>
-            
-            <div class="mark__block">
-                <i class="mark__icon iconfont icon-time"></i>
-                <ul class="mark__list clearfix">
-                    <li class="mark__item"><span>2018-07-10</span></li>
-                </ul>
-            </div>
-
-            <div class="mark__block">
-                <i class="mark__icon iconfont icon-tab"></i>
-                <ul class="mark__list clearfix">
-                    
-                </ul>
-            </div>
-
-            
+            <!-- // .navbar-inner -->
         </div>
-    </header>
 
-    <div class="post__content">
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+        <!-- ============================ Header & Logo bar =========================== -->
+
+
+      
+<section id="intro">
+    <div class="container">
+        <div class="row col-md-offset-2">
+            <div class="col-md-8">
+    			<span class="post-meta">
+      <time datetime="2018-07-10T11:53:44.602Z" itemprop="datePublished">
+          2018-07-10
+      </time>
+    
+</span>
+                <h1>Hello World</h1>
+            </div>
+        </div>
+        <div class="col-md-8 col-md-offset-2">
+      		<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
@@ -142,187 +192,147 @@
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 
-
-        
-        <div class="post-announce">
-            感谢您的阅读，本文由
-            <a href="http://yoursite.com">Hexo</a>
-            版权所有。如若转载，请注明出处：Hexo（<a href="http://yoursite.com/2018/07/10/hello-world/">http://yoursite.com/2018/07/10/hello-world/</a>）
+            <div class="clearfix"></div>
+            <hr class="nogutter">
         </div>
-        
-
-        <div class="post__prevs">
-            <div class="post__prev">
-                
-            </div>
-            <div class="post__prev post__prev--right">
-                
-                <a href="/2018/07/10/Hello-hexo/" title="Hello,hexo">Hello,hexo<i class="iconfont icon-next"></i></a>
-                
-            </div>
-        </div>
-    </div>
-</article>
-
-        
-        
-    </div>
-
-    <aside class="page__sidebar">
-    <!--  -->
-
-    <form id="page-search-from" class="page__search-from" action="/search/">
-        <label class="search-form__item">
-            <input class="input" type="text" name="search" placeholder="Search...">
-            <i class="iconfont icon-search"></i>
-        </label>
-    </form>
-
+        <nav class="m-pagination col-md-8 col-md-offset-2 col-sm-24" role="pagination">
     
-
-    <div class="sidebar__block">
-        <h3 class="block__title">文章分类</h3>
-        
-    </div>
+    <a class="pull-left" href="/2018/07/10/Hello-hexo/" style="float: left;">
+        ← Hello,hexo
+    </a>
     
-    <div class="sidebar__block">
-        <h3 class="block__title">最新文章</h3>
-        
-        <ul class="block-list latest-post-list">
-            
-                    <li class="latest-post-item">
-                        <a href="/2018/07/10/Hello-hexo/" title="Hello,hexo">
-                            <div class="item__cover">
-                                <img src="undefined" alt="Hello,hexo" />
-                            </div>
-                            <div class="item__info">
-                                <h3 class="item__title">Hello,hexo</h3>
-                                <span class="item__text">2018-07-10</span>
-                            </div>
-                        </a>
-                    </li>
-                
-                    <li class="latest-post-item">
-                        <a href="/2018/07/10/hello-world/" title="Hello World">
-                            <div class="item__cover">
-                                <img src="undefined" alt="Hello World" />
-                            </div>
-                            <div class="item__info">
-                                <h3 class="item__title">Hello World</h3>
-                                <span class="item__text">2018-07-10</span>
-                            </div>
-                        </a>
-                    </li>
-                
-        </ul>
     
-    </div>
+</nav>
 
-    <div class="sidebar__block">
-        <h3 class="block__title">文章标签</h3>
-        
-        <ul class="block-list tag-list clearfix">
-            
-        </ul>
-    
-    </div>
+        <div class="col-md-8 col-md-offset-2 col-sm-24"><script type="text/javascript">
+  /**
+   * 搜狐畅言
+   */
 
-    <!-- <div class="sidebar__block">
-        <h3 class="block__title">友情链接</h3>
-        <ul class="block-list">
-            
-        </ul>
-    </div> -->
-</aside>
-</main>
+  /*
+  document.write('<div id="SOHUCS" sid="' + window.location.pathname.slice(1) + '" ></div>');
 
+  window.onload = function () {
+    (function () {
+      var appid = 'cytXXXX';
+      var conf = 'prod_xxxxxxxxxxxxxxxxx';
+      var width = window.innerWidth || document.documentElement.clientWidth;
+      var loadJs = function (d, a, id) {
+        var c = document.getElementsByTagName("head")[0] || document.head || document.documentElement;
+        var b = document.createElement("script");
+        b.setAttribute("type", "text/javascript");
+        b.setAttribute("charset", "UTF-8");
+        b.setAttribute("src", d);
+        if (id) {
+          b.setAttribute("id", id);
+        }
+        if (typeof a === "function") {
+          if (window.attachEvent) {
+            b.onreadystatechange = function () {
+              var e = b.readyState;
+              if (e === "loaded" || e === "complete") {
+                b.onreadystatechange = null;
+                a()
+              }
+            }
+          } else {
+            b.onload = a
+          }
+        }
+        c.appendChild(b)
+      };
 
-        
-            <!-- 页脚 -->
-<footer class="page__footer">
-    <section class="footer__top">
-        <div class="page__container footer__container">
-            
-            <div class="footer-top__item footer-top__item--2">
-                <h3 class="item__title">关于</h3>
-                <div class="item__content">
-                    <p class="item__text"></p>
-                    <ul class="footer__contact-info">
-                        <li class="contact-info__item">
-                            <i class="iconfont icon-address"></i>
-                            <span></span>
-                        </li>
-                        <li class="contact-info__item">
-                            <i class="iconfont icon-email2"></i>
-                            <span></span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+      loadJs("https://changyan.sohu.com/upload/changyan.js", function () {
+        window.changyan.api.config({
+          appid: appid,
+          conf: conf
+        })
+      });
+    })();
+  }
+  */
 
-            
-            
-            
-            
-            
-        </div>
-    </section>
-    <section class="footer__bottom">
-        <div class="page__container footer__container">
-            <p class="footer__copyright">©
-                <a href="https://github.com/Mrminfive/hexo-theme-skapp" target="_blank">Skapp</a> 2017 powered by
-                <a href="http://hexo.io/" target="_blank">Hexo</a>, made by 
-                <a href="https://github.com/Mrminfive" target="_blank">minfive</a>.
-            </p>
-            <ul class="footer__social-network clearfix">
-                
-            </ul>
-        </div>
-    </section>
-</footer>
-        
-
-        
-            <!-- 返回顶部 -->
-<div id="back-top" class="back-top back-top--hidden js-hidden">
-    <i class="iconfont icon-top"></i>
+</script>
 </div>
-        
     </div>
-
-    <!-- build:js /js/common.js -->
-        <script type="text/javascript" src="js/common/utils.js"></script>
-        <script type="text/javascript" src="js/common/pack.js"></script>
-        <script type="text/javascript" src="js/common/animation.js"></script>
-        <script type="text/javascript" src="js/layout/loading.js"></script>
-        <script type="text/javascript" src="js/layout/header.js"></script>
-        <script type="text/javascript" src="js/layout/back-top.js"></script>
-        <script type="text/javascript" src="js/layout/post.js"></script>
-    <!-- endbuild -->
-
-    
-    <script src="/js/page/post.js"></script>
+</section>
 
 
-    
-    
+      
+<!-- ============================ Footer =========================== -->
+
+<footer>
+    <div class="container">
+            <div class="copy">
+                <p>
+                    &copy; 2014<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script>, Content By John Doe. All Rights Reserved.
+                </p>
+                <p>Theme By <a href="//go.kieran.top" style="color: #767D84">Kieran</a></p>
+            </div>
+            <div class="social">
+                <ul>
+                    
+                    <li><a href="https://github.com/" title="Github" target="_blank"><i class="icon-github"></i></a>&nbsp;</li>
+                    
+                    
+                    <li><a href="https://twitter.com/" title="Twitter" target="_blank"><i class="icon-twitter"></i></a>&nbsp;</li>
+                    
+                    
+                    <li><a href="https://www.facebook.com/" title="Facebook" target="_blank"><i class="icon-facebook"></i></a>&nbsp;</li>
+                    
+                    
+                    <li><a href="https://google.com/" title="Google-Plus" target="_blank"><i class="icon-google-plus"></i></a>&nbsp;</li>
+                    
+                    
+                    <li><a href="http://weibo.com/" title="Sina-Weibo" target="_blank"><i class="icon-sina-weibo"></i></a>&nbsp;</li>
+                    
+                </ul>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+</footer>
+
+<!-- ============================ END Footer =========================== -->
+      <!-- Load our scripts -->
+<!-- Resizable 'on-demand' full-height hero -->
+<script type="text/javascript">
+    var resizeHero = function () {
+        var hero = $(".cover,.heightblock"),
+            window1 = $(window);
+        hero.css({
+            "height": window1.height()
+        });
+    };
+
+    resizeHero();
+
+    $(window).resize(function () {
+        resizeHero();
+    });
+</script>
+<script src="/js/plugins.min.js"></script><!-- Bootstrap core and concatenated plugins always load here -->
+<script src="/js/scripts.js"></script><!-- Theme scripts -->
 
 
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$('#intro').find('img').each(function(){
+  var alt = this.alt;
 
-    <!-- 不蒜子统计 -->
+  if (alt){
+    $(this).after('<span class="caption" style="display:none">' + alt + '</span>');
+  }
 
-<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+  $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox" rel="gallery" />');
+});
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
 </script>
 
 
-     
 
-
-
-
-
-
-
-
+      
 </body>
 </html>
